@@ -1,0 +1,24 @@
+# Secrets / sensitive material — NEVER commit
+*.env
+*.key
+*.pem
+secrets/
+creds*
+*_password*
+loot/
+*.ovpn
+
+# Scan output (can be large/sensitive — add deliberately)
+scans/raw/
+*.nmap.raw
+
+# System / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Temp files
+*.tmp
+*.log
